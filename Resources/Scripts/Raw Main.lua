@@ -139,7 +139,7 @@ local function Load()
 				Environment.FOVCircle.Color = Environment.FOVSettings.LockedColor
 			end
 		end
-	end)
+	)
 
 	ServiceConnections.InputBeganConnection = UserInputService.InputBegan:Connect(function(Input)
 		if not Typing then
