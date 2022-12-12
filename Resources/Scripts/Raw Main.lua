@@ -30,9 +30,9 @@ local RequiredDistance, Typing, Running, Animation, ServiceConnections = 2000, f
 --// Script Settings
 
 Environment.Settings = {
-	Enabled = true,
+	Enabled = false,
 	TeamCheck = false,
-	AliveCheck = true,
+	AliveCheck = false,
 	WallCheck = false, -- Laggy
 	Sensitivity = 0, -- Animation length (in seconds) before fully locking onto target
 	ThirdPerson = false, -- Uses mousemoverel instead of CFrame to support locking in third person (could be choppy)
@@ -43,8 +43,8 @@ Environment.Settings = {
 }
 
 Environment.FOVSettings = {
-	Enabled = true,
-	Visible = true,
+	Enabled = false,
+	Visible = false,
 	Amount = 90,
 	Color = Color3.fromRGB(255, 255, 255),
 	LockedColor = Color3.fromRGB(255, 70, 70),
